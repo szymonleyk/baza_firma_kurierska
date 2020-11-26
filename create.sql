@@ -45,3 +45,5 @@ CREATE TABLE parcel
 
 ALTER TABLE parcel ALTER COLUMN status SET DEFAULT 'nadana';
 
+ALTER TABLE parcel ADD COLUMN insurance DECIMAL(5,2);
+
